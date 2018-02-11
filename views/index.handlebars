@@ -1,8 +1,53 @@
 <html>
 <head>
-	<title>Test Page</title>
+	<title>Karanbir Bains</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/homepage.css">
 </head>
 <body>
-Begin here (or replace this with any static code already written).
+	<div id="About" class="tabcontent">
+	  <h1>Karanbir Bains</h1> 
+	  <img className="img-rounded" id="profilePic" src='https://media-exp2.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAkLAAAAJGYwNDBkZTMwLTUxOGUtNDJiNi05ODY5LWIxYTI0MjZhYWUwYw.jpg'/>
+	</div>
+
+	<div id="Projects" class="tabcontent">
+	  <h1>Projects</h1>
+	  <h3>"A dream does not become reality through magic; it takes sweat, determination and hard work." 
+		– Colin Powell</h3> 
+	</div>
+
+	<div id="Experience" class="tabcontent">
+	  <h1>Experience</h1>
+	  <h3>“There are no mistakes in life, only lessons. There is no such thing as a negative experience, only opportunities to grow, learn and advance along the road of selfmastery." – Robin S. Sharma </h3>
+	</div>
+
+	<div id="Connect" class="tabcontent">
+	  <h1>Connect</h13>
+	  <h3>"Alone we can do so little, Together we can do so much." – Helen Keller</h3>
+	</div>
+
+	<button class="tablink" onclick="openTab('About', this, 'red')" id="defaultOpen">About Me</button>
+	<button class="tablink" onclick="openTab('Projects', this, 'orange')">Projects</button>
+	<button class="tablink" onclick="openTab('Experience', this, '#80b3ff')">Experience</button>
+	<button class="tablink" onclick="openTab('Connect', this, 'green')">Connect</button>
+
+	<script>
+	function openTab(tabName,elmnt,color) {
+	    var i, tabcontent, tablinks;
+	    tabcontent = document.getElementsByClassName("tabcontent");
+	    for (i = 0; i < tabcontent.length; i++) {
+	        tabcontent[i].style.display = "none";
+	    }
+	    tablinks = document.getElementsByClassName("tablink");
+	    for (i = 0; i < tablinks.length; i++) {
+	        tablinks[i].style.backgroundColor = "";
+	    }
+	    document.getElementById(tabName).style.display = "block";
+	    elmnt.style.backgroundColor = color;
+
+	}
+	// Get the element with id="defaultOpen" and click on it
+	document.getElementById("defaultOpen").click();
+	</script>
 </body>
 </html>

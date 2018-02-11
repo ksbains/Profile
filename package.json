@@ -1,25 +1,21 @@
 {
-  "name": "IntroHCI",
+  "name": "Profile",
   "version": "0.0.1",
-  "author": "Intro HCI Staff",
-
+  "author": "Karanbir Bains",
   "repository": {
     "type": "git",
-    "url": "https://github.com/IntroHCI/lab4"
+    "url": "https://github.com/ksbains/Profile"
   },
   "license": "MIT",
-
   "private": true,
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
     "express": "3.x",
-    "express3-handlebars": "*",
-    "mongodb": "*",
-    "mongoose": "*"
+    "express3-handlebars": "*"
   },
   "engines": {
-    "node": "0.10.x"
-  }  
+    "node": "9.2.0"
+  }
 }

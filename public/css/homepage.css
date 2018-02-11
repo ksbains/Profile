@@ -1,0 +1,82 @@
+body {
+    font-family: "Lato", 
+    sans-serif;
+    background-color: #555;
+}
+
+.tablink {
+    background-color: #668c99;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+#profilePic{
+    text-align: center;
+    border-radius: 25px;
+}
+#About {
+    background-color:#80b3ff;
+    margin-bottom: 0px;
+    height: 350px;
+    background-image: url('../images/skies.jpeg');
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+#Projects {
+    background-color:green;
+    margin-bottom: 0px;
+    height: 350px;
+    background-image: url('../images/projects.jpeg');
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+#Experience {
+    background-color:blue;
+    margin-bottom: 0px;
+    height: 350px;
+    background-image: url('../images/graduate.jpeg');
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+#Connect {
+    background-color:orange;
+    margin-bottom: 0px;
+    height: 350px;
+    background-image: url('../images/teamwork.jpeg');
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
