@@ -2,7 +2,7 @@
 <head>
 	<title>Karanbir Bains</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/css/homepage.css">
+	<link rel="stylesheet" href="/css/exp.css">
 </head>
 <body>
 	<div id="About" class="tabcontent">
@@ -17,8 +17,8 @@
 	</div>
 
 	<div id="Experience" class="tabcontent">
-	  <h1>Experience</h1>
-	  <h3>“There are no mistakes in life, only lessons. There is no such thing as a negative experience, only opportunities to grow, learn and advance along the road of selfmastery." – Robin S. Sharma </h3>
+	  <strong><h1>Experience</h1></strong>
+	  <strong><h3>“There are no mistakes in life, only lessons. There is no such thing as a negative experience, only opportunities to grow, learn and advance along the road of selfmastery." – Robin S. Sharma </h3></strong>
 	</div>
 
 	<div id="Connect" class="tabcontent">
@@ -26,9 +26,9 @@
 	  <h3>"Alone we can do so little, Together we can do so much." – Helen Keller</h3>
 	</div>
 
-	<button class="tablink" onclick="openTab('About', this, 'red')" id="defaultOpen">About Me</button>
+	<a href="/"><button class="tablink">About Me</button></a>
 	<a href="/project"><button class="tablink">Projects</button></a>
-	<a href="/exp"><button class="tablink">Experience</button></a>
+	<button class="tablink" onclick="openTab('Experience', this, '#80b3ff')" id="defaultOpen">Experience</button>
 	<a href="/connect"><button class="tablink">Connect</button></a>
 
 
@@ -46,12 +46,14 @@
 		</div>
 		<br>
 	</div>
+	<br>
 	<footer>
 			  Copyright &copy; 2018 Karanbir Bains
 	</footer>
+	
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="/js/homepage.js"></script>
+	<script type="text/javascript" src="/js/exp.js"></script>
 
 </body>
 </html>
