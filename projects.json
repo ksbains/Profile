@@ -1,0 +1,36 @@
+{
+	"projects": [
+	{
+		"id": 1,
+		"title": "Tongs",
+		"githubLink": "https://github.com/MatthewANguyen/Tongs",
+		"viewLink":"https://matthewanguyen.github.io/Tongs/",
+		"summary": "Tongs is an application that lets you search for a YouTube Video (or Audio) and play it while the Audio (or Video) of a different YouTube Video is played. Users are able to upvote and downvote mashups. Scores are saved in Firebase to store trending and popular mashups.",
+		"image": "https://images-na.ssl-images-amazon.com/images/I/61zEJXQta7L._SL1500_.jpg"
+	},
+	{
+		"id": 2,
+		"title": "Activities",
+		"githubLink": "https://github.com/ksbains/Activities",
+		"viewLink":"https://activities-project.herokuapp.com/",
+		"summary": "This application allows users to find activites to do and can even build own activiites to host and let other people join.",
+		"image": "https://www.theeducator.com/blog/wp-content/uploads/2017/03/talleres-extracurriculares-cronol1.jpg"
+	},
+	{
+		"id": 3,
+		"title":"Home.ie",
+		"githubLink":"https://github.com/yukims19/Home.ie",
+		"viewLink":"https://home-ie.herokuapp.com/",
+		"summary":"This application allows users to better maintain a clean and happy living enviroment with other housemates/roomates",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Go-home.svg/2000px-Go-home.svg.png"
+	},
+	{
+		"id": 4,
+		"title": "Its All About the Kids",
+		"githubLink": "https://github.com/esguo/Grapes",
+		"viewLink": "esguo.github.io/Grapes",
+		"summary":"This an application that allows volunteers fo Its all about the kids tosign in parents who have sign ed up via the sign up link.",
+		"image": "../public/images/logoBW.jpg"
+	}
+]
+}

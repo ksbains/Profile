@@ -33,18 +33,24 @@
 
 
 	<div class="container">
-		<br>
-		<div class="Div" id="aboutMeDiv">
-			<h1 class="Title" id="aboutMeTitle">About Me</h1>
-			<p class="Body" id="aboutMeBody">I am a senior at the University of California, San Diego. I majored in Cognitive Science with a specialization in Human Computer Interaction. I also minored in Computer Science. I love technology and innovation, the future excites me and I wanted the skillset to make my own mark on the future in this industry. I was born and raised in San Jose, California. My parents came here just when the silicon valley was starting in the early 80's. I was born the youngest of 3 in 1996, growing up so close to silicon valley definitely motivated and inspired me to enter technology. However the main reason I love technology is efficiently, I hate wasting time fixing a problem if I know there is a better way. Technology has been making things more efficient since the beginning of humanity</p>
+		<div class="row">
+			{{#each projects}}
+				<div class="project col-xs-4 col-sm-4 col-md-4 col-lg-4 card" id="{{id}}">
+					<h1 class="Title">{{title}}</h1>
+					<div class="thumbnail">
+						<a href="{{viewLink}}">
+							<img src="{{image}}" class="img">
+						</a>
+					</div>
+					<div class="details{{id}}">
+						<h2 class="Summary">Summary:</h2>
+						<p class="Body">{{summary}}</p>
+						<a href="{{githubLink}}"><h2>Github Repository</h2></a>
+						<a href="{{viewLink}}"><h2>Project Link</h2></a>
+					</div>
+				</div>
+			{{/each}}
 		</div>
-		<br>
-		<div class="Div" id="hobbiesDiv">
-			<br>
-			<h1 class="Title" id="hobbiesTitle">Hobbies and Interest</h1>
-			<p class="Body" id="hobbiesBody">I am a senior at the University of California, San Diego. I majored in Cognitive Science with a specialization in Human Computer Interaction. I also minored in Computer Science. I love technology and innovation, the future excites me and I wanted the skillset to make my own mark on the future in this industry. I was born and raised in San Jose, California. My parents came here just when the silicon valley was starting in the early 80's. I was born the youngest of 3 in 1996, growing up so close to silicon valley definitely motivated and inspired me to enter technology. However the main reason I love technology is efficiently, I hate wasting time fixing a problem if I know there is a better way. Technology has been making things more efficient since the beginning of humanity</p>
-		</div>
-		<br>
 	</div>
 	<br>
 	<footer>

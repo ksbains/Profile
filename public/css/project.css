@@ -1,7 +1,7 @@
 body {
     font-family: "Lato", 
     sans-serif;
-    background-image: url('https://1366x768wallpaper.com/2015/09/02/tools-pattern.jpg');
+    background-image: url('../images/tools-pattern.jpg');
 }
 .container {
   width: 100%;
@@ -85,13 +85,19 @@ body {
     color: white;
     text-shadow: black 0.3em 0.3em 0.3em;
 }
-.Div{
+.project{
     text-align: center;
     border-style: solid;
     border-radius: 25px;
     border-color: orange;
-    margin-top: 5%;
+    margin-top: 3%;
+    margin-right: 2%;
+    margin-left: -1%;
     background-color: #555;
+}
+
+.Summary{
+    color: #337ab7;
 }
 
 .Title{
@@ -99,8 +105,13 @@ body {
     text-decoration: underline;
 }
 
+.thumbnail img{
+    max-width: 200px;
+    max-height: 200px;
+}
+
 .Body{
-    color: white;
+    color: black;
     padding: 2% 5% 2% 5%;
     font-size: large;
 }
