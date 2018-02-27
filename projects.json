@@ -28,7 +28,7 @@
 		"id": 4,
 		"title": "Its All About the Kids",
 		"githubLink": "https://github.com/esguo/Grapes",
-		"viewLink": "esguo.github.io/Grapes",
+		"viewLink": "https://esguo.github.io/Grapes/",
 		"summary":"This an application that allows volunteers fo Its all about the kids tosign in parents who have sign ed up via the sign up link.",
 		"image": "http://static.wixstatic.com/media/e4c275_789dd3ce84ac4a8bbc2d3ce59f307c2e~mv2.jpg"
 	},
@@ -47,7 +47,6 @@
 		"viewLink": "https://ksbains.github.io/Hangman-Game/",
 		"summary":"A web Hangman game with small dictionary of 5 letter words",
 		"image": "https://media.gettyimages.com/photos/hangman-picture-id183062044?b=1&k=6&m=183062044&s=612x612&w=0&h=cM98NE5RGx6ltVuWKO50d8u_yKfso5R-2rFZsNtNQKY="
-		
 	}
 ]
 }
