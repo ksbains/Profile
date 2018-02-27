@@ -86,13 +86,14 @@ body {
     text-shadow: black 0.3em 0.3em 0.3em;
 }
 .project{
+    max-height:60%;
+    max-width: 30%;
     text-align: center;
     border-style: solid;
     border-radius: 25px;
     border-color: orange;
     margin-top: 3%;
     margin-right: 2%;
-    margin-left: -1%;
     background-color: #555;
 }
 
@@ -118,13 +119,13 @@ body {
 
 footer {
   position: absolute;
-  padding: 30px 0;
+  padding: 15px 0;
   clear: both;
   font-size: 12px;
   color: #fff;
   color: #ccc;
   text-align: center;
   background: #666;
-  border-top: 12px solid #668c99;
+  border-top: 10% solid #668c99;
   width: 100%;
 }

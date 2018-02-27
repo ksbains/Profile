@@ -3,6 +3,18 @@ body {
     sans-serif;
     background-image: url('https://thumbs.dreamstime.com/b/vintage-autumn-leaves-seamless-pattern-background-colorful-tree-eps-vector-file-transparency-organized-layers-easy-33544103.jpg');
 }
+
+.social {
+  width: 62px;
+  height: 62px;
+  margin: 2%;
+  margin-right: 5px;
+}
+
+.social:last-child {
+  margin-right: 0;
+}
+
 .container {
   width: 100%;
   max-width: 960px;

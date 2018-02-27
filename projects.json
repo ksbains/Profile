@@ -5,7 +5,7 @@
 		"title": "Tongs",
 		"githubLink": "https://github.com/MatthewANguyen/Tongs",
 		"viewLink":"https://matthewanguyen.github.io/Tongs/",
-		"summary": "Tongs is an application that lets you search for a YouTube Video (or Audio) and play it while the Audio (or Video) of a different YouTube Video is played. Users are able to upvote and downvote mashups. Scores are saved in Firebase to store trending and popular mashups.",
+		"summary": "Tongs is an application that lets you search for a YouTube Video (or Audio) and play it while the Audio (or Video) of a different YouTube Video is played.",
 		"image": "https://images-na.ssl-images-amazon.com/images/I/61zEJXQta7L._SL1500_.jpg"
 	},
 	{
@@ -30,7 +30,24 @@
 		"githubLink": "https://github.com/esguo/Grapes",
 		"viewLink": "esguo.github.io/Grapes",
 		"summary":"This an application that allows volunteers fo Its all about the kids tosign in parents who have sign ed up via the sign up link.",
-		"image": "../public/images/logoBW.jpg"
+		"image": "http://static.wixstatic.com/media/e4c275_789dd3ce84ac4a8bbc2d3ce59f307c2e~mv2.jpg"
+	},
+	{
+		"id": 5,
+		"title": "Clicky Game",
+		"githubLink": "https://github.com/ksbains/Clicky-Game",
+		"viewLink": "https://clicky-game-rick.herokuapp.com/",
+		"summary":"You have to click on each charater once as they shuffle after each click.",
+		"image": "https://i2.wp.com/rickandmortygoodies.com/wp-content/uploads/2017/02/buy-rick-sanchez-rick-and-morty-print-poster.png?w=463&ssl=1"
+	},
+	{
+		"id": 6,
+		"title": "Hangman Game",
+		"githubLink": "https://github.com/ksbains/Hangman-Game",
+		"viewLink": "https://ksbains.github.io/Hangman-Game/",
+		"summary":"A web Hangman game with small dictionary of 5 letter words",
+		"image": "https://media.gettyimages.com/photos/hangman-picture-id183062044?b=1&k=6&m=183062044&s=612x612&w=0&h=cM98NE5RGx6ltVuWKO50d8u_yKfso5R-2rFZsNtNQKY="
+		
 	}
 ]
 }
