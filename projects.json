@@ -38,7 +38,7 @@
 		"githubLink": "https://github.com/ksbains/Clicky-Game",
 		"viewLink": "https://clicky-game-rick.herokuapp.com/",
 		"summary":"You have to click on each character once as they shuffle after each click.",
-		"image": "https://images.pexels.com/photos/368774/pexels-photo-368774.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb"
+		"image": "../images/rickMorty.jpg"
 	},
 	{
 		"id": 6,
