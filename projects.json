@@ -28,7 +28,7 @@
 		"id": 4,
 		"title": "Its All About the Kids",
 		"githubLink": "https://github.com/esguo/Grapes",
-		"viewLink": "https://esguo.github.io/Grapes/",
+		"viewLink": "https://iaatk-check-in.herokuapp.com/",
 		"summary":"This an application that allows volunteers fo Its all about the kids to sign in parents who have signed up via the sign up link.",
 		"image": "../images/kids.jpg"
 	},
