@@ -35,19 +35,21 @@
 	<div class="container">
 		<div class="row">
 			{{#each projects}}
-				<div class="project col-xs-4 col-sm-4 col-md-4 col-lg-4 card" id="{{id}}">
-					<h1 class="Title">{{title}}</h1>
-					<div class="thumbnail">
+				<div class="project col-xs-12 col-sm-12 col-md-12 col-lg-12 card" id="{{id}}">
+					<div class="thumbnail col-xs-4 col-sm-4 col-md-4 col-lg-4">
 						<a href="{{viewLink}}">
 							<img src="{{image}}" class="img">
 						</a>
 					</div>
-					<div class="details{{id}}">
+					<div class="details col-xs-4 col-sm-4 col-md-4 col-lg-4" id="details{{id}}">
+						<h1 class="Title">{{title}}</h1>
 						<h2 class="Summary">Summary:</h2>
 						<p class="Body">{{summary}}</p>
+					</div>
+					<div class="links col-xs-4 col-sm-4 col-md-4 col-lg-4">
 						<a href="{{githubLink}}"><h2>Github Repository</h2></a>
 						<a href="{{viewLink}}"><h2>Project Link</h2></a>
-					</div>
+					</div>						
 				</div>
 			{{/each}}
 		</div>
