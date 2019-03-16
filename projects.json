@@ -26,14 +26,6 @@
 	},
 	{
 		"id": 4,
-		"title": "Its All About the Kids",
-		"githubLink": "https://github.com/esguo/Grapes",
-		"viewLink": "https://iaatk-check-in.herokuapp.com/",
-		"summary":"This an application that allows volunteers of Its all about the kids to sign in parents who have signed up via the sign up link.",
-		"image": "../images/kids.jpg"
-	},
-	{
-		"id": 5,
 		"title": "Clicky Game",
 		"githubLink": "https://github.com/ksbains/Clicky-Game",
 		"viewLink": "https://clicky-game-rick.herokuapp.com/",
@@ -41,7 +33,7 @@
 		"image": "../images/rickMorty.jpg"
 	},
 	{
-		"id": 6,
+		"id": 5,
 		"title": "Hangman Game",
 		"githubLink": "https://github.com/ksbains/Hangman-Game",
 		"viewLink": "https://ksbains.github.io/Hangman-Game/",
