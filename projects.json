@@ -5,19 +5,11 @@
 		"title": "Tongs",
 		"githubLink": "https://github.com/MatthewANguyen/Tongs",
 		"viewLink":"https://matthewanguyen.github.io/Tongs/",
-		"summary": "Tongs is an application that lets you search for a YouTube Video (or Audio) and play it while the Audio (or Video) of a different YouTube Video is played.",
+		"summary": "Tongs is an application that lets you choose a random YouTube Video and play it while a random Audio of a different YouTube Video is played. Search is still being implemnted.",
 		"image": "https://images-na.ssl-images-amazon.com/images/I/61zEJXQta7L._SL1500_.jpg"
 	},
 	{
 		"id": 2,
-		"title": "Activities",
-		"githubLink": "https://github.com/ksbains/Activities",
-		"viewLink":"https://activities-project.herokuapp.com/",
-		"summary": "This application allows users to find activities to do and can even build own activities to host and let other people join.",
-		"image": "https://www.theeducator.com/blog/wp-content/uploads/2017/03/talleres-extracurriculares-cronol1.jpg"
-	},
-	{
-		"id": 3,
 		"title":"Home.ie",
 		"githubLink":"https://github.com/yukims19/Home.ie",
 		"viewLink":"https://home-ie.herokuapp.com/",
@@ -25,7 +17,7 @@
 		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Go-home.svg/2000px-Go-home.svg.png"
 	},
 	{
-		"id": 4,
+		"id": 3,
 		"title": "Clicky Game",
 		"githubLink": "https://github.com/ksbains/Clicky-Game",
 		"viewLink": "https://clicky-game-rick.herokuapp.com/",
@@ -33,7 +25,7 @@
 		"image": "../images/rickMorty.jpg"
 	},
 	{
-		"id": 5,
+		"id": 4,
 		"title": "Hangman Game",
 		"githubLink": "https://github.com/ksbains/Hangman-Game",
 		"viewLink": "https://ksbains.github.io/Hangman-Game/",
